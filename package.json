@@ -1,0 +1,22 @@
+{
+  "name": "short-text",
+  "version": "1.0.0",
+  "description": "Pustaka kecil yang dapat membantu memotong sebuah text title description dll",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "text",
+    "limit",
+    "shor",
+    "text",
+    "description"
+  ],
+  "author": "Agus trihanton",
+  "license": "ISC"
+}
