@@ -7,9 +7,9 @@
  */
 
 const shorText = (txt = "", limit = 100, add = "") => {
-	if (txt.length > limit) {
-		return txt.substr(0, limit) + add;
-	}
-	return txt;
+  if (txt.length > limit) {
+    return txt.substr(0, limit) + add;
+  }
+  return txt;
 };
 module.exports = shorText;
