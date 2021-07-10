@@ -7,6 +7,8 @@
     "lint": "eslint src/*.js",
     "lint:fix": "eslint src/*.js --fix",
     "format": "prettier src/*.js --write",
+    "test:watch": "jest --watch",
+    "test:coverage":"jest --coverage",
     "test": "jest"
   },
   "repository": {
