@@ -4,9 +4,10 @@
   "description": "Pustaka kecil yang dapat membantu memotong sebuah text title description dll",
   "main": "src/index.js",
   "scripts": {
-    "lint":"eslint src/*.js",
-    "lint:fix":"eslint src/*.js --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/*.js",
+    "lint:fix": "eslint src/*.js --fix",
+    "format": "prettier src/*.js --write",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
   "author": "Agus trihanton",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.30.0"
+    "eslint": "^7.30.0",
+    "jest-cli": "^27.0.6",
+    "prettier": "^2.3.2"
   }
 }
