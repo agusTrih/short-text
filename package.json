@@ -11,7 +11,7 @@
     "test:coverage": "jest --coverage",
     "test": "jest",
     "prebuild":"rimraf dist",
-    "build": "babel src --out-dir dist --ignore *.test.js "
+    "build": "babel src --out-dir dist --ignore src/**/*.test.js --copy-files "
   },
   "repository": {
     "type": "git",
