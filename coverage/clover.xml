@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625876749757" clover="3.2.0">
-  <project timestamp="1625876749757" name="All files">
-    <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1" elements="11" coveredelements="10" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
-    <file name="shorText.js" path="D:\short-text\src\shorText.js">
+<coverage generated="1625949844045" clover="3.2.0">
+  <project timestamp="1625949844046" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="19" coveredconditionals="17" methods="2" coveredmethods="2" elements="34" coveredelements="32" complexity="0" loc="13" ncloc="13" packages="2" files="2" classes="2"/>
+    <package name="dist">
+      <metrics statements="8" coveredstatements="8" conditionals="14" coveredconditionals="13" methods="1" coveredmethods="1"/>
+      <file name="shorText.js" path="D:\short-text\dist\shorText.js">
+        <metrics statements="8" coveredstatements="8" conditionals="14" coveredconditionals="13" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="12" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src">
       <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <line num="9" count="1" type="cond" truecount="2" falsecount="1"/>
-      <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-    </file>
+      <file name="shorText.js" path="D:\short-text\src\shorText.js">
+        <metrics statements="5" coveredstatements="5" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="1"/>
+        <line num="10" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>

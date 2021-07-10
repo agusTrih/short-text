@@ -2,7 +2,7 @@
   "name": "short-text",
   "version": "1.0.0",
   "description": "Pustaka kecil yang dapat membantu memotong sebuah text title description dll",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src/*.js",
     "lint:fix": "eslint src/*.js --fix",
@@ -10,12 +10,12 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "test": "jest",
-    "prebuild":"rimraf dist",
+    "prebuild": "rimraf dist",
     "build": "babel src --out-dir dist --ignore src/**/*.test.js --copy-files "
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:agusTrih/short-text.git"
   },
   "keywords": [
     "text",
@@ -33,6 +33,10 @@
     "eslint": "^7.30.0",
     "jest-cli": "^27.0.6",
     "prettier": "^2.3.2",
-    "rimraf": "^3.0.2"
-  }
+    "rimraf": "^3.0.2",
+    "rollup": "^2.53.0"
+  },
+  "files": [
+    "dist"
+  ]
 }
