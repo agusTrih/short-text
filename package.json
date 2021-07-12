@@ -1,6 +1,6 @@
 {
   "name": "limit-text-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pustaka kecil yang dapat membantu memotong sebuah text title description dll",
   "main": "dist/index.js",
   "scripts": {

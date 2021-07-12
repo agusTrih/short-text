@@ -3,5 +3,5 @@
 var shortText = require("./shorText.js");
 
 module.exports = {
-  shortText: shortText
+  shortText
 };

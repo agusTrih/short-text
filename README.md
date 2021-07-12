@@ -12,16 +12,29 @@ npm install limit-text-js
 
 ## Cara Menggunakan
 
-### Node.js
-
 ```javascript
 const { shortText } = require("limit-text-js");
 
-const textLimit = shortText(
-  "TESTING SEBUAH LIMIT TEXT JS",
-  10
-);
-console.log(textLimit);
+const textLimit = shortText("I love Code", 6);
+console.log(textLimit); //I love
+```
+
+```javascript
+import { shortText } from "limit-text-js";
+
+const textLimit = shortText("My name is Agus", 10, "...");
+```
+
+```javascript
+output: My name is...
+```
+
+## Options
+
+```javascript
+Param 1 : type string  | default string ""
+Param 2 : type number  | default number 100
+Param 3 : type string  | default string ""
 ```
 
 ## Cara Berkontribusi
